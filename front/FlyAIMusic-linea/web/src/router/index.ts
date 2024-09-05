@@ -182,6 +182,6 @@ const routes: RouteRecordRaw[] = [ //路由数组中每个元素类型为RouteRe
     }]
 const router = createRouter({
     routes,
-    history: createWebHistory()// createWebHashHistory URL带#，createWebHistory URL不带#
+    history: createWebHistory('/linea')// createWebHashHistory URL带#，createWebHistory URL不带#
 })
 export default router

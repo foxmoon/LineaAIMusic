@@ -6,6 +6,7 @@ import Components from 'unplugin-vue-components/vite'//自动引入element组件
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import path from 'path'; //node的路径，必须安装@types/node来拓展node语法
 export default defineConfig({
+    base : 'linea',
     plugins: [
         vue(),
         //配置elements-plus自动按需引入

@@ -164,7 +164,7 @@ let commentsAll = reactive<CommentRes>({ //热评、所有评论
 
 // 购买NFT
 const pay = async () => {
-  await payNFT();
+  await payNFT('1');
   // Example: Fetch the account balance
   // const {data: {free: balance}} = await api.query.system.account(selectedAccount.address);
   // console.log(`Balance of ${selectedAccount.meta.name}: ${balance}`);
